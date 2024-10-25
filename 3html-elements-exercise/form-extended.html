@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="name">Teksta ievades lauks</label>
+      <input type="text" id="name" /> <br />
+
+      <label for="email">epasts</label>
+      <input type="email" id="email" size="30" required /><br />
+
+      <label for="pass">parole(min 8 rakstuzīmes)</label>
+      <input
+        type="password"
+        id="pass"
+        name="password"
+        minlingth="8"
+        required
+        pattern="?=.*[!@#$%&*]"
+      /> <br>
+
+      <label for="phone">tel. numurs</label>
+      <input type="tel" id="phone" name="phone" />
+
+      
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
